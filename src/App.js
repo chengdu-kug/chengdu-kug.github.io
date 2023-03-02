@@ -23,7 +23,7 @@ function App() {
 
                 <div className="navbar-link">
                     {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                    <a href="" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/chengdu-kug/chengdu-kug.github.io" target="_blank" rel="noopener noreferrer">
                         <img
                             src="/github.svg"
                             alt="bj_kug_logo"
@@ -31,10 +31,10 @@ function App() {
                             height={32}
                         />
                     </a>
-                    <a href="/events" target="_top" rel="noopener noreferrer">分享会</a>
+                    <a href="/#/events" target="_top" rel="noopener noreferrer">分享会</a>
                     <a href="https://kotlinlang.org/" target="_top" rel="noopener noreferrer">Kotlin官方</a>
                     <a href="https://www.kotlincn.net/" target="_top" rel="noopener noreferrer">中文文档</a>
-                    <a href="/advance" target="_top" rel="noopener noreferrer">Kotlin进阶</a>
+                    <a href="/#/advance" target="_top" rel="noopener noreferrer">Kotlin进阶</a>
                 </div>
             </div>
 
