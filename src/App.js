@@ -1,6 +1,6 @@
 import './styles/App.css';
 import Main from "./pages/main";
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {HashRouter as Router, Routes, Route} from "react-router-dom";
 import Events from "./pages/events";
 import Advance from "./pages/advance";
 import React from "react";
@@ -23,7 +23,7 @@ function App() {
 
                 <div className="navbar-link">
                     {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                    <a  href="" target="_blank" rel="noopener noreferrer">
+                    <a href="" target="_blank" rel="noopener noreferrer">
                         <img
                             src="/github.svg"
                             alt="bj_kug_logo"
@@ -38,14 +38,14 @@ function App() {
                 </div>
             </div>
 
-            <BrowserRouter>
+            <Router>
                 <Routes>
-                    <Route path="/" element={<Main/>}></Route>
-                    <Route path="/events" element={<Events />} />
-                    <Route path="/advance" element={<Advance />} />
-                    <Route path="*" element={<Main />} />
+                    <Route path="/" element={<Main/>}/>
+                    <Route path="/events" element={<Events/>}/>
+                    <Route path="/advance" element={<Advance/>}/>
+                    <Route path="*" element={<Main/>}/>
                 </Routes>
-            </BrowserRouter>
+            </Router>
 
         </div>
     );
