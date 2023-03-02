@@ -1,0 +1,74 @@
+.content{
+    margin: 0 280px;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+}
+
+.content ul{
+    text-align: start;
+    font-size: 16px;
+    padding: 4px;
+}
+.content ul li{
+    margin-bottom: 10px;
+}
+
+.content h1{
+    padding: 12px;
+}
+.content span{
+    font-size: 16px;
+}
+
+.github{
+    padding: 6px;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(25%, auto));
+    max-width: 100%;
+}
+
+.grid a{
+    text-decoration: none;
+}
+
+
+.card {
+    padding: 0 1.2rem;
+    place-self: center;
+    border-radius: 10px;
+    transition: background 200ms, border 200ms;
+}
+.card:hover{
+    background: #f3f3f3;
+}
+
+.card img {
+    margin-left: 10px;
+}
+
+.card h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    margin-bottom: 0.7rem;
+    color: #333333;
+}
+
+.card p {
+    margin: 0;
+    opacity: 0.6;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #5604b9;
+    line-height: 1.5;
+    max-width: 30ch;
+}
+
