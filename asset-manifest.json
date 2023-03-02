@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.6a860782.css",
-    "main.js": "/static/js/main.3e877df9.js",
-    "static/js/787.20223d9c.chunk.js": "/static/js/787.20223d9c.chunk.js",
-    "index.html": "/index.html",
-    "main.6a860782.css.map": "/static/css/main.6a860782.css.map",
-    "main.3e877df9.js.map": "/static/js/main.3e877df9.js.map",
-    "787.20223d9c.chunk.js.map": "/static/js/787.20223d9c.chunk.js.map"
+    "main.css": "/chengdu-kug.github.io/static/css/main.6a860782.css",
+    "main.js": "/chengdu-kug.github.io/static/js/main.91e8d90c.js",
+    "static/js/787.20223d9c.chunk.js": "/chengdu-kug.github.io/static/js/787.20223d9c.chunk.js",
+    "index.html": "/chengdu-kug.github.io/index.html",
+    "main.6a860782.css.map": "/chengdu-kug.github.io/static/css/main.6a860782.css.map",
+    "main.91e8d90c.js.map": "/chengdu-kug.github.io/static/js/main.91e8d90c.js.map",
+    "787.20223d9c.chunk.js.map": "/chengdu-kug.github.io/static/js/787.20223d9c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6a860782.css",
-    "static/js/main.3e877df9.js"
+    "static/js/main.91e8d90c.js"
   ]
 }
