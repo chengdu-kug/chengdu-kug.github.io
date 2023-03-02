@@ -1,9 +1,10 @@
 import React from 'react';
+import styles from "../styles/Events.module.css";
 
 function Advance() {
     return (
-        <main>
-            <div>
+        <main className={styles.main}>
+            <div className={styles.content}>
                 <h1>Kotlin 进阶学习材料</h1>
 
                 <h3>Kotlin 协程</h3>
