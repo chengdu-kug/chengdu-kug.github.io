@@ -11,7 +11,7 @@ function Main() {
                 {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <div className={styles.grid}>
                     <a
-                        href="/events"
+                        href="/#/events"
                         className={styles.card}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -31,7 +31,7 @@ function Main() {
                     </a>
 
                     <a
-                        href="/advance"
+                        href="/#/advance"
                         className={styles.card}
                         target="_blank"
                         rel="noopener noreferrer"
