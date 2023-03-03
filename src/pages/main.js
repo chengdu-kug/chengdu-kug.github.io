@@ -25,9 +25,6 @@ function Main() {
                             height={32}
                         />
                         </h2>
-                        <p>
-                            Find in-depth information about Next.js features and&nbsp;API.
-                        </p>
                     </a>
 
                     <a
@@ -44,9 +41,6 @@ function Main() {
                             height={32}
                         />
                         </h2>
-                        <p >
-                            Learn about Next.js in an interactive course with&nbsp;quizzes!
-                        </p>
                     </a>
                 </div>
                 <ul>
