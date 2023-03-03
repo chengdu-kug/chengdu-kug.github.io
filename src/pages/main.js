@@ -13,7 +13,7 @@ function Main() {
                     <a
                         href="/#/events"
                         className={styles.card}
-                        target="_blank"
+                        target="_top"
                         rel="noopener noreferrer"
                     >
                         <h2>
@@ -30,7 +30,7 @@ function Main() {
                     <a
                         href="/#/advance"
                         className={styles.card}
-                        target="_blank"
+                        target="_top"
                         rel="noopener noreferrer"
                     >
                         <h2 >
