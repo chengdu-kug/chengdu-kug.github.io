@@ -4,7 +4,9 @@ import styles from '../styles/Main.module.css'
 function Main() {
     return (
         <div className={styles.main}>
-            <img src="/kug-logo.png" className="App-logo" alt="logo" />
+            <div className="logo-div">
+                <img src="/kug-logo.png" className="App-logo" alt="logo" />
+            </div>
             <div className={styles.content}>
                 <h1>Chengdu Kotlin User Group</h1>
                 <span>Hi, 这里是成都 Kotlin 用户组，欢迎所有对 Kotlin 感兴趣的开发者加入用户组</span>
