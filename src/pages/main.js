@@ -3,7 +3,7 @@ import styles from '../styles/Main.module.css'
 
 function Main() {
     return (
-        <div>
+        <div className={styles.main}>
             <img src="/kug-logo.png" className="App-logo" alt="logo" />
             <div className={styles.content}>
                 <h1>Chengdu Kotlin User Group</h1>

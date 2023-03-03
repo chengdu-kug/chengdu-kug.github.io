@@ -1,4 +1,5 @@
 import './styles/App.css';
+import './styles/globals.css'
 import Main from "./pages/main";
 import {HashRouter as Router, Routes, Route} from "react-router-dom";
 import Events from "./pages/events";
