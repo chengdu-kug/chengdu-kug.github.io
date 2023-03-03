@@ -77,3 +77,20 @@
     color: #333333;
 }
 
+@media (max-width: 700px) {
+    .main {
+        margin: 0;
+    }
+    .content h1 {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1120px) {
+    .main {
+        margin: 0 140px;
+    }
+    .content h1 {
+        padding: 10px;
+    }
+}

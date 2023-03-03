@@ -44,3 +44,45 @@
     word-break: break-all;
     color: #666666;
 }
+
+@media (max-width: 700px) {
+    .main {
+        margin: 0;
+    }
+    .title a{
+        max-width: calc(100vw - 160px);
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        word-break: break-all;
+    }
+    .title span{
+        max-width: calc(100vw - 160px);
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        word-break: break-all;
+        color: #666666;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1120px) {
+    .main {
+        margin: 0 140px;
+    }
+    .title a{
+        max-width: calc(100vw - 450px);
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        word-break: break-all;
+    }
+    .title span{
+        max-width: calc(100vw - 450px);
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        word-break: break-all;
+        color: #666666;
+    }
+}
