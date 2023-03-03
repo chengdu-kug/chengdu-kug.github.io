@@ -18,3 +18,29 @@
     padding: 2px;
     border-bottom: 1px solid;
 }
+
+.events{
+    height: 60px;
+    padding: 54px 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+.title{
+    display: flex;
+    margin-left: 30px;
+    flex-direction: column;
+    align-items: start;
+}
+.title a{
+    font-size: 24px;
+    font-weight: 700;
+}
+.title span{
+    width: 680px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: break-all;
+    color: #666666;
+}
